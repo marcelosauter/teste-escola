@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app
   namespace: default
-  progressDeadlineSeconds: 3600
+ # progressDeadlineSeconds: 3600
 spec:
   selector:
     matchLabels:
