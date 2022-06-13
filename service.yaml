@@ -2,8 +2,11 @@ apiVersion: v1
 kind: Service
 metadata:
   name: app
-spec:
+ spec:
+   selector:
+     app: app
   ports:
-  - name: TCP
-    port: 80
+    - protocol: TCP
+	  port: 80
+  type: NodePort
  
