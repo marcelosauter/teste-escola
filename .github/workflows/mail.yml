@@ -12,7 +12,8 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
-  GKE_CLUSTER: turn-off-cluster    # Add your cluster name here.
+ #GKE_CLUSTER: turn-off-cluster    # Add your cluster name here.
+  GKE_CLUSTER: prod
   GKE_ZONE: us-central1-c   # Add your cluster zone here.
   DEPLOYMENT_NAME: app # Add your deployment name here.
   IMAGE: static-site
