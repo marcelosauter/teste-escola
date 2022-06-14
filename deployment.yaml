@@ -16,8 +16,8 @@ spec:
       containers:
         - name: app
          # image: "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA"
-         #image  fabricioveronez/web-page:green
-          image: fabricioveronez/web-page:blue
+           image: fabricioveronez/web-page:green
+          #image: fabricioveronez/web-page:blue
           ports:
             - containerPort: 8080
         
